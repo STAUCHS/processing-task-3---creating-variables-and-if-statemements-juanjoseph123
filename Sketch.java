@@ -46,9 +46,10 @@ public class Sketch extends PApplet {
 
   /**
    * Called repeatedly, anything drawn to the screen goes here
+   * @return 
    */
   //(public void draw() {
-fill(225);
+{;
   rect(random(50, 200), random(50, 200), random(50, 200), random(50, 200));
 
 fill(255, 0, 0);
